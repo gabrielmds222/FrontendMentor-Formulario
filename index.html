@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <title>Intro component with sign-up form</title>
 </head>
 <body>
@@ -20,6 +22,11 @@
         </section>
 
         <section id="Right">
+
+            <div class="promo">
+                <h3>Try it free 7 days then $20/mo. thereafter</h3>
+            </div>
+
             <form id="Form">
                 <div id="First-name">
                     <input class="first-name-input" type="text" placeholder="First Name">
@@ -45,7 +52,7 @@
                     <small class="error-msg" >Password can not be empty</small>
                 </div>
 
-                <button type="submit">Claim your free trial</button>
+                <button class="submit" type="submit">Claim your free trial</button>
 
                 <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
             </form>
