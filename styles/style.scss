@@ -15,6 +15,32 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-// main {
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 auto;
+}
 
-// }
+#Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  color: #fff;
+  margin-left: 30px;
+}
+
+#Left h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+#Left p {
+  line-height: 1.5;
+  align-self: center;
+}
