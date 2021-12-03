@@ -8,5 +8,11 @@
 html {
   background-image: url(../images/bg-intro-desktop.png);
   background-repeat: no-repeat;
+  background-color: #ff7a7a;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
