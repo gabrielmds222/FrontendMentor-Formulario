@@ -10,54 +10,51 @@
     <title>Intro component with sign-up form</title>
 </head>
 <body>
-    <main>
-        <section id="Left">
+    <div id="Container">
+        <div>
             <h1>
                 Learn to code by watching others
             </h1>
-
+            <br>
             <p>
                 See how experienced developers solve problems in real-time. <br>
                 Watching scripted tutorials is great, but understanding how developers think is invaluable.
             </p>
-        </section>
+        </div>
 
-        <section id="Right">
+        <div>
+            <div class="box promo">
+                <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+            </div>    
 
-            <div class="promo">
-                <h3>Try it free 7 days then $20/mo. thereafter</h3>
-            </div>
-
-            <form id="Form">
-                <div id="First-name">
-                    <input class="first-name-input" type="text" placeholder="First Name">
+            <form class="box" id="Form">
+                <div class="form-box">
+                    <input type="text" class="first-name" placeholder="First Name">
                     <img class="error" src="../images/icon-error.svg" alt="Error">
-                    <small class="error-msg" >First name can not be empty</small>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-box">
+                    <input class="last-name" type="text" placeholder="Last Name">
+                    <img class="error" src="../images/icon-error.svg" alt="Error">
+                    <small class="error-msg" ></small>
+                </div>
+                <div class="form-box">
+                    <input class="email" type="email" placeholder="Email Address">
+                    <img class="error" src="../images/icon-error.svg" alt="Error">
+                    <small class="error-msg" ></small>
+                </div>
+                <div class="form-box">
+                    <input class="password" type="password" placeholder="Password">
+                    <img class="error" src="../images/icon-error.svg" alt="Error">
+                    <small class="error-msg" ></small>
                 </div>
 
-                <div id="Last-name">
-                    <input class="last-name-input" type="text" placeholder="Last Name">
-                    <img class="error" src="../images/icon-error.svg" alt="Error">
-                    <small class="error-msg" >Last name can not be empty</small>
-                </div>
-
-                <div id="Email">
-                    <input class="email-input" type="email" placeholder="Email Address">
-                    <img class="error" src="../images/icon-error.svg" alt="Error">
-                    <small class="error-msg" >Email Address can not be empty</small>
-                </div>
-
-                <div id="Password">
-                    <input class="password-input" type="password" placeholder="Password">
-                    <img class="error" src="../images/icon-error.svg" alt="Error">
-                    <small class="error-msg" >Password can not be empty</small>
-                </div>
-
-                <button class="submit" type="submit">Claim your free trial</button>
-
-                <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+                <button>Claim your free trial</button>
+                <small>
+                    By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+                </small>
             </form>
-        </section>
-    </main>
+        </div>  
+    </div>
 </body>
 </html>
